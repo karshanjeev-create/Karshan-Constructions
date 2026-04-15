@@ -1800,7 +1800,7 @@
   document.addEventListener('mouseup', () => document.body.classList.remove('cursor-click'));
 
   /* ✅ BACKEND CONNECTION */
-  const API_BASE = "/api";
+  const API_BASE = "https://api.karshanconstructions.homes/api";
 
   async function apiPost(endpoint, body) {
     const res = await fetch(API_BASE + endpoint, {
